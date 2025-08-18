@@ -192,3 +192,18 @@ color: #ec6707;
     font-size: 24px;
     cursor: pointer;
 }
+
+.success-box {
+    text-align: center;
+    background: #2c2f88;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background: #2c2f88;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+}
