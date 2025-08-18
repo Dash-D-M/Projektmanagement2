@@ -29,19 +29,30 @@ export function evaluateAnswers(answers, correctAnswers) {
   let score = 0;
   const keys = Object.keys(correctAnswers);
   keys.forEach(key => {
-    if (answers[key] === correctAnswers[key]) score++;
+    const correct = correctAnswers[key];
+    if (Array.isArray(correct)) {
+      if (correct.includes(answers[key])) score++;
+    } else if (answers[key] === correct) {
+      score++;
+    }
   });
   return { score, total: keys.length };
 }
 
 export function initQuiz(formId, correctAnswers) {
+  let attempts = 0;
   insertButton(formId, 'Auswerten', () => {
+    attempts++;
     const answers = collectAnswers(formId);
     const result = evaluateAnswers(answers, correctAnswers);
     if (result.score < result.total) {
       showResultPopup(result.score, result.total);
     } else {
-      alert('Glückwunsch! Du hast alle Fragen richtig beantwortet.');
+      const pageName = window.location.pathname
+        .split('/')
+        .pop()
+        .replace('.html', '');
+      window.location.href = `Geschafft.html?attempts=${attempts}&origin=${encodeURIComponent(pageName)}`;
     }
   });
 }
