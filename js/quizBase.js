@@ -29,7 +29,12 @@ export function evaluateAnswers(answers, correctAnswers) {
   let score = 0;
   const keys = Object.keys(correctAnswers);
   keys.forEach(key => {
-    if (answers[key] === correctAnswers[key]) score++;
+    const correct = correctAnswers[key];
+    if (Array.isArray(correct)) {
+      if (correct.includes(answers[key])) score++;
+    } else if (answers[key] === correct) {
+      score++;
+    }
   });
   return { score, total: keys.length };
 }
