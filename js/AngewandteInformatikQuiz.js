@@ -1,7 +1,14 @@
 import { initQuiz } from './quizBase.js';
 
 const correctAnswers = {
-  // TODO: Add correct answers for this quiz
+  question1: 'a',
+  question2: 'd',
+  question3: 'b',
+  question4: ['rough animator', 'roughanimator'],
+  question5: 'b',
+  question6: ['flexibilität', 'flexibel'],
+  question7: 'd',
+  question8: 'b'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
