@@ -40,13 +40,19 @@ export function evaluateAnswers(answers, correctAnswers) {
 }
 
 export function initQuiz(formId, correctAnswers) {
+  let attempts = 0;
   insertButton(formId, 'Auswerten', () => {
+    attempts++;
     const answers = collectAnswers(formId);
     const result = evaluateAnswers(answers, correctAnswers);
     if (result.score < result.total) {
       showResultPopup(result.score, result.total);
     } else {
-      alert('Glückwunsch! Du hast alle Fragen richtig beantwortet.');
+      const pageName = window.location.pathname
+        .split('/')
+        .pop()
+        .replace('.html', '');
+      window.location.href = `Geschafft.html?attempts=${attempts}&origin=${encodeURIComponent(pageName)}`;
     }
   });
 }
