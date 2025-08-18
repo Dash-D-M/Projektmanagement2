@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
       image: ''
     },
     'DigitaleBildbearbeitung': {
-      info: { url: '#', text: '' },
+      info: { url: 'https://hs-flensburg.de/studieninteressierte/angebot/bachelor/MI', text: 'Studiengang Medieninformatik' },
       reward: { url: '#', text: '' },
       image: ''
     },
@@ -79,12 +79,14 @@ document.addEventListener('DOMContentLoaded', () => {
       const link = document.createElement('a');
       link.href = content.info.url;
       link.textContent = content.info.text || content.info.url;
+      link.target = "_blank";
       infoLink.appendChild(link);
     }
     if (content.reward && content.reward.url && content.reward.url !== '#') {
       const link = document.createElement('a');
       link.href = content.reward.url;
       link.textContent = content.reward.text || content.reward.url;
+      link.target = "_blank";
       rewardLink.appendChild(link);
     }
     if (content.image) {
