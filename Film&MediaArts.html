@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSFL Quizseite</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <img src="\Logo_HSFL.png" alt="HSFL Logo" class="logo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
+
+   
+   
+    </html>
+</head>
+<body>
+<header>
+    <h1>HSFL Quizseite</h1>
+</header>
+<main>
+        <p>Ein Quiz für die Hochschule Flensburg</p>
+        <p>Studienfach: Film & Media Arts</p>
+        <form action="quiz.html" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <button type="submit">Quiz starten</button>
+
+        </form>
+        <form id="quiz-form">
+            <div class="quiz-question">
+                <p>1. Was versteht man an der HSFL typischerweise unter einem “Labor” als Veranstaltungsart?</p>
+            <input type="radio" id="q1a" name="question1"  value="a"> 
+                <label for="q1a">  Praktische Übungen in Kleingruppen</label><br>
+            <input type="radio" id="q1b" name="question1" value="b"> 
+                <label for="q1b"> Wissenschaftlicher Raum mit Geräten und Maschinen</label><br>
+            <input type="radio" id="q1c" name="question1" value="c"> 
+                <label for="q1c"> Dozierende halten Präsentationen vor größeren Gruppen</label><br>
+            <input type="radio" id="q1d" name="question1" value="d"> 
+                <label for="q1d"> Praktikum in einem Betrieb</label><br>
+            </div>
+
+            <div class="quiz-question">
+            <p>2. Was beschreibt der Begriff „Mise-en-Scène“?</p>
+            <input type="radio" id="q2a" name="question2" value="a"> 
+               <label for="q2a"> Die Schnittechnik eines Films</label><br>
+            <input type="radio" id="q2b" name="question2" value="b"> 
+               <label for="q2b"> Alles Sichtbare innerhalb des Filmrahmens</label><br>
+            <input type="radio" id="q2c" name="question2" value="c"> 
+               <label for="q2c"> Die Tonmischung im Film</label><br>
+            <input type="radio" id="q2d" name="question2" value="d"> 
+               <label for="q2d"> Die Schriftart der Untertitel</label><br>
+            </div>
+
+            <div class="quiz-question">
+            <p>3. Welcher Kamerawinkel erzeugt typischerweise Macht und Dominanz?</p>
+            <input type="radio" id="q3a" name="question3" value="a"> 
+               <label for="q3a"> Froschperspektive</label><br>
+            <input type="radio" id="q3b" name="question3" value="b"> 
+               <label for="q3b"> Vogelperspektive</label><br>
+            <input type="radio" id="q3c" name="question3" value="c"> 
+               <label for="q3c"> Over-the-Shoulder</label><br>
+            <input type="radio" id="q3d" name="question3" value="d"> 
+               <label for="q3d"> Dutch Angle</label><br>
+
+            
+            </div>
+            <div class="quiz-question">
+            <p>4. Was war ein Titel eines der Kurzfilmprojekte?</p>
+            <input type="radio" id="q4a" name="question4" value="a"> 
+               <label for="q4a"> KEIN TITEL</label><br>
+            <input type="radio" id="q4b" name="question4" value="b"> 
+               <label for="q4b"> KEIN TITEL</label><br>
+            <input type="radio" id="q4c" name="question4" value="c"> 
+               <label for="q4c"> KEIN TITEL</label><br>
+            <input type="radio" id="q4d" name="question4" value="d"> 
+               <label for="q4d"> TITEL</label><br>
+            </div>  
+
+            <div class="quiz-question">
+            <p>5. Wie lang durfte der Kurzfilm im Projekt höchstens sein?</p>
+            <input type="radio" id="q5a" name="question5" value="a"> 
+               <label for="q5a"> ???</label><br>
+            <input type="radio" id="q5b" name="question5" value="b"> 
+               <label for="q5b"> ???</label><br>
+            <input type="radio" id="q5c" name="question5" value="c"> 
+               <label for="q5c"> ???</label><br>
+            <input type="radio" id="q5d" name="question5" value="d"> 
+               <label for="q5d"> ???</label><br>
+            </div>  
+
+            <div class="quiz-question">
+            <p>6. Was ist Color Grading?</p>
+            <input type="radio" id="q6a" name="question6" value="a"> 
+               <label for="q6a"> Die Korrektur von Farbfehlern in der Kamera</label><br>
+           <input type="radio" id="q6b" name="question6" value="b"> 
+               <label for="q6b"> Das Anpassen u8nd Gestalten dewr Farbgebung im Film</label><br>
+            <input type="radio" id="q6c" name="question6" value="c"> 
+               <label for="q6c"> Das Einfügen von computergenerierten Effekten</label><br>
+            <input type="radio" id="q6d" name="question6" value="d"> 
+               <label for="q6d"> Das Erstellen von Farbpaletten für Kostüme</label><br>
+            </div>
+
+        </form>
+        <div class="star-rating">
+         <span class="star" data-value="1">&#9733;</span>
+         <span class="star" data-value="2">&#9733;</span>
+         <span class="star" data-value="3">&#9733;</span>
+         <span class="star" data-value="4">&#9733;</span>
+         <span class="star" data-value="5y">&#9733;</span>
+        </div>
+        <p> Um Mehr über den Studiengnag Film & Media Arts herauszufinden, schaue dir gerne die Studienbeschreibung auf unserer Hochschulwebseite an: www.hsfl.de</p>
+    </main>
+</body>
+    <footer>
+        <p>&copy; Rundgang 2025</p>
+
+    </footer>
+</html>

@@ -1,0 +1,161 @@
+body {
+    font-family: 'Crete Round', serif;
+    background-color: #2c2f88;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin-top: -8px;
+}
+
+header, footer {
+    background: #2c2f88;
+    color: #fff;
+    padding: 24px 16px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(44,47,136,0.15);
+    margin-bottom: 24px;
+    letter-spacing: 2px;;
+    line-height: 2;
+    font-family: 'Crete Round', serif, Bold;
+    font-size: 0.9em;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.6em;
+    font-weight: bold;
+    text-shadow: 1px 2px 8px #6b3e61;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+
+main {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #2c2f88;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    
+}
+
+.quiz-question {
+    margin-bottom: 24px;
+    padding: 16px;
+    background: #2c2f88;
+    border-radius: 10px;
+}
+/* Buttons */
+button {
+    background: linear-gradient(90deg, #6b3e91 60%, #d3537b 100%);
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 12px 32px;
+    font-size: 1.1em;
+    font-family: 'Crete Round', Bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(44,47,136,0.2);
+    transition: background 0.3s, transform 0.2s;
+    margin-bottom: 30px;
+}
+button:hover {
+    background: linear-gradient(90deg, #f8b500 60%, #ec6707 100%);
+    transform: scale(1.05);
+}
+
+/* Input-Felder */
+input[type="text"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ec6707;
+    background: #fff;
+    color: #2c2f88;
+    font-size: 1em;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border 0.2s;
+}
+input[type="text"]:focus {
+    border: 2px solid #f8b500;
+    outline: none;
+}
+
+/* Radio-Buttons */
+input[type="radio"] {
+    accent-color: #ec6707;
+    margin-right: 8px;
+}
+.quiz-question label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 8px;
+    font-size: 1em;
+    position: relative;
+    padding-left: 32px;
+}
+
+.quiz-question input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.quiz-question label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #ec6707;
+    background: #fff;
+    transition: border 0.2s;
+    box-shadow: 0 2px 6px rgba(44,47,136,0.08);
+}
+
+.quiz-question input[type="radio"]:checked + label::before {
+    border: 2px solid #f8b500;
+    background: linear-gradient(90deg, #ec6707 60%, #f8b500 100%);
+}
+
+.quiz-question input[type="radio"]:checked + label::after {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 0 4px #f8b50044;
+}
+
+.star{
+   border: #ec6707;
+   position: relative;
+   size: 10px;
+}
+
+.star:hover {
+color: #ec6707;
+}

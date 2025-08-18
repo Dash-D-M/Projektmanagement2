@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSFL Quizseite</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <img src="\Logo_HSFL.png" alt="HSFL Logo" class="logo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
+
+   
+   
+    </html>
+</head>
+<body>
+<header>
+    <h1>HSFL Quizseite</h1>
+</header>
+<main>
+        <p>Ein Quiz für die Hochschule Flensburg</p>
+        <p>Studienfach: Angewandte Informatik</p>
+        <form action="quiz.html" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <button type="submit">Quiz starten</button>
+
+        </form>
+        <form id="quiz-form">
+            <div class="quiz-question">
+                <p>1. Womit beschäftigt sich die angewandte Informatik hauptsächlich?</p>
+            <input type="radio" id="q1a" name="question1"  value="a"> 
+                <label for="q1a">Das Erlernen einer neuen Sprache</label><br>
+            <input type="radio" id="q1b" name="question1" value="b"> 
+                <label for="q1b"> Der Pflege im Krankenhaus</label><br>
+            <input type="radio" id="q1c" name="question1" value="c"> 
+                <label for="q1c"> Das Erstellen von Rechtsdokumenten</label><br>
+            <input type="radio" id="q1d" name="question1" value="d"> 
+                <label for="q1d"> Die programmierung & Lösung von IT-Lösungen</label><br>
+            </div>
+
+            <div class="quiz-question">
+            <p>2. Welche funktion hat ein "Shader" in der 3D-Entwicklung?</p>
+            <input type="radio" id="q2a" name="question2" value="a"> 
+               <label for="q2a"> Soundsteuerung</label><br>
+            <input type="radio" id="q2b" name="question2" value="b"> 
+               <label for="q2b"> Licht & Materialdarstellung</label><br>
+            <input type="radio" id="q2c" name="question2" value="c"> 
+               <label for="q2c"> Textverarbeitung</label><br>
+            <input type="radio" id="q2d" name="question2" value="d"> 
+               <label for="q2d"> Speicherverwaltung</label><br>
+            </div>
+
+            <div class="quiz-question">
+            <p>3. Was bedeutet "Rendering" im Kontext der 3D-Produjtion?</p>
+            <input type="radio" id="q3a" name="question3" value="a"> 
+               <label for="q3a"> Das Bearbeiten von Tonspuren</label><br>
+            <input type="radio" id="q3b" name="question3" value="b"> 
+               <label for="q3b"> Das Ausrechnen und  Erstellen eines finalen Bildes aus 3D-Daten</label><br>
+            <input type="radio" id="q3c" name="question3" value="c"> 
+               <label for="q3c"> Das Exportieren von Quellcode</label><br>
+            <input type="radio" id="q3d" name="question3" value="d"> 
+               <label for="q3d"> Das Modellieren von Figuren per Hand</label><br>
+
+            
+            </div>
+            <div class="quiz-question">
+            <p>4. Welche dieser Sprachen ist keine Programmiersprache?</p>
+            <input type="radio" id="q4a" name="question4" value="a"> 
+               <label for="q4a"> Python</label><br>
+            <input type="radio" id="q4b" name="question4" value="b"> 
+               <label for="q4b"> Java</label><br>
+            <input type="radio" id="q4c" name="question4" value="c"> 
+               <label for="q4c"> C++</label><br>
+            <input type="radio" id="q4d" name="question4" value="d"> 
+               <label for="q4d"> HTML</label><br>
+            </div>  
+
+            <div class="quiz-question">
+            <p>5. Was ist KEIN Bestandteil einer grafischen Benutzeroberfläche in Java Swing?</p>
+            <input type="radio" id="q5a" name="question5" value="a"> 
+               <label for="q5a"> JButton</label><br>
+            <input type="radio" id="q5b" name="question5" value="b"> 
+               <label for="q5b"> JPanel</label><br>
+            <input type="radio" id="q5c" name="question5" value="c"> 
+               <label for="q5c"> JQuery</label><br>
+            <input type="radio" id="q5d" name="question5" value="d"> 
+               <label for="q5d"> JFrame</label><br>
+            </div>  
+
+            <div class="quiz-question">
+            <p>6. Welches dieser Frameworks wird typischerweise in der Webentwicklung für responsive Design genutzt?</p>
+            <input type="radio" id="q6a" name="question6" value="a"> 
+               <label for="q6a"> Bootstrap</label><br>
+           <input type="radio" id="q6b" name="question6" value="b"> 
+                <label for="q6b"> Django</label><br>
+            <input type="radio" id="q6c" name="question6" value="c"> 
+               <label for="q6c"> JQuery</label><br>
+            <input type="radio" id="q6d" name="question6" value="d"> 
+               <label for="q6d"> TensorFlow</label><br>
+            </div>
+
+        </form>
+        <div class="star-rating">
+         <span class="star" data-value="1">&#9733;</span>
+         <span class="star" data-value="2">&#9733;</span>
+         <span class="star" data-value="3">&#9733;</span>
+         <span class="star" data-value="4">&#9733;</span>
+         <span class="star" data-value="5y">&#9733;</span>
+        </div>
+        <p> Um Mehr über den Studiengnag Angewandte Informatik herauszufinden, schaue dir gerne die 
+         Studienbeschreibung auf unserer Hochschulwebseite an: www.hsfl.de</p>
+    </main>
+</body>
+    <footer>
+        <p>&copy; Rundgang 2025</p>
+
+    </footer>
+</html>
