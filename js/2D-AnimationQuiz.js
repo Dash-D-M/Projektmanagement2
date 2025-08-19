@@ -2,13 +2,8 @@ import { initQuiz } from './quizBase.js';
 
 const correctAnswers = {
   question1: 'a',
-  question2: 'd',
+  question2: ['rough animator', 'roughanimator'],
   question3: 'b',
-  question4: ['rough animator', 'roughanimator'],
-  question5: 'b',
-  question6: ['flexibilität', 'flexibel'],
-  question7: 'd',
-  question8: 'b'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
