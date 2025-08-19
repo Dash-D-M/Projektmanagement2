@@ -2,7 +2,7 @@ import { initQuiz } from './quizBase.js';
 
 const correctAnswers = {
   question1: 'a',
-  question2: 'd',
+  question2: 'a',
   question3: 'b',
   question4: ['rough animator', 'roughanimator'],
   question5: 'b',
