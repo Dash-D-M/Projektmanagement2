@@ -5,7 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const attemptText = document.getElementById('attempt-text');
   if (attempts) {
-    attemptText.textContent = `Du hast das Quiz beim ${attempts}. Versuch abgeschlossen.`;
+    attemptText.textContent = "Du hast das Quiz beim ";
+    
+    const bold = document.createElement("b");
+    bold.textContent = `${attempts}. Versuch`;
+    
+    attemptText.appendChild(bold);
+    attemptText.append(" abgeschlossen.");
   }
 
   const infoLink = document.getElementById('info-link');

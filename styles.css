@@ -21,8 +21,8 @@ header, footer {
     text-align: center;
     border-radius: 20px;
     box-shadow: 0 4px 16px rgba(44,47,136,0.15);
-    margin-bottom: 24px;
     letter-spacing: 2px;;
+    margin-top: 24px;
     line-height: 2;
     font-family: 'Crete Round', serif, Bold;
     font-size: 0.9em;
@@ -44,9 +44,9 @@ footer p {
 
 main {
     max-width: 600px;
-    margin: 40px auto;
-    background: #2c2f88;
-    padding: 30px;
+    margin: auto;
+    background: #5d3886;
+    padding: 1px 30px;
     border-radius: 16px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     
@@ -54,8 +54,7 @@ main {
 
 .quiz-question {
     margin-bottom: 24px;
-    padding: 16px;
-    background: #2c2f88;
+    background: #5d3886;
     border-radius: 10px;
 }
 /* Buttons */
@@ -195,12 +194,12 @@ color: #ec6707;
 
 .success-box {
     text-align: center;
-    background: #2c2f88;
+    background: #5d3886;
     border-radius: 16px;
 }
 
 .info-box {
-    background: #2c2f88;
+    background: #5d3886;
     border-radius: 16px;
     margin-top: 30px;
     text-align: left;
