@@ -149,9 +149,10 @@ input[type="radio"] {
 }
 
 .star{
-   border: #ec6707;
-   position: relative;
-   size: 10px;
+   color: white;
+   font-size: 40px;
+   cursor: pointer;
+   -webkit-text-stroke: 2px #ec6707;
 }
 
 .star:hover {
@@ -210,4 +211,26 @@ color: #ec6707;
 .info-box a:active {
     color: #7e4bb8;
     text-decoration: underline;
+}
+
+a {
+    color: #ec6707;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f8b500;
+}
+
+a:visited {
+    color: #d35378;
+}
+
+img {
+    width: 600px;
+    height: 270px;
+    border-radius: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    position: relative;
 }
