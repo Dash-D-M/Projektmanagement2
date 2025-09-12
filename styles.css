@@ -227,7 +227,7 @@ a:visited {
 }
 
 img {
-    width: 600px;
+    width: 100%;
     height: auto;
     border-radius: 16px;
     margin-top: 20px;
