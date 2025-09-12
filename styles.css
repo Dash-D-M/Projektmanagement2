@@ -45,7 +45,7 @@ main {
     max-width: 600px;
     margin: auto;
     background: #5d3886;
-    padding: 1px 30px;
+    padding: 1px 16px;
     border-radius: 16px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     
@@ -226,11 +226,29 @@ a:visited {
     color: #d35378;
 }
 
-img {
+img, .image {
     width: 100%;
+    max-width: 600px;
     height: auto;
     border-radius: 16px;
     margin-top: 20px;
     margin-bottom: 10px;
-    position: relative;
+    
+}
+@media (max-width: 640px) {
+    header h1 {
+        font-size: 1.8em;
+        padding: 10px;
+    }
+    
+    main {
+        padding: 1px 6px;
+    }
+    .logo {
+        width: 70px;
+        margin-right: 10px;
+    }
+    img, .image {
+        max-width: 100%;
+    }
 }
