@@ -1,14 +1,11 @@
 import { initQuiz } from './quizBase.js';
 
 const correctAnswers = {
-  question1: 'a',
-  question2: 'd',
-  question3: 'b',
-  question4: ['rough animator', 'roughanimator'],
-  question5: 'b',
-  question6: ['flexibilität', 'flexibel'],
-  question7: 'd',
-  question8: 'b'
+  question1: 'b',
+  question2: 'b',
+  question3: 'c',
+  question4: ['after effects', 'adobe after effects', 'aftereffects', 'adobe after efects', 'after efects', 'adobe after effekts', 'after effekts', 'adobe after efekts', 'after efekts'],
+  question5: 'a'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
