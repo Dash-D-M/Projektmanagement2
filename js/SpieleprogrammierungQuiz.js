@@ -1,10 +1,10 @@
 import { initQuiz } from './quizBase.js';
 
 const correctAnswers = {
-  question1: '210',
-  question2: 'b',
+  question1: 'd',
+  question2: 'c',
   question3: 'd',
-  question4: 'd',
+  question4: ['unity', 'uniti'],
   question5: 'a'
 };
 

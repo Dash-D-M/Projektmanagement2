@@ -4,10 +4,8 @@ const correctAnswers = {
   question1: '3',
   question2: 'a',
   question3: 'c',
-  question4: 'd',
-  question5: 'd',
-  question6: 'b',
-  question7: 'c',
+  question4: 'c',
+  question5: 'b'
 };
 
 document.addEventListener('DOMContentLoaded', () => {
