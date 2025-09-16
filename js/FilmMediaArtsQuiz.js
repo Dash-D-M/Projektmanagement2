@@ -4,7 +4,7 @@ const correctAnswers = {
   question1: 'b',
   question2: 'b',
   question3: 'a',
-  question4: 'd',
+  question4: ['film and media arts', 'film & media arts', 'film und media arts'],
   question5: 'b',
 };
 

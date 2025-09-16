@@ -31,13 +31,15 @@ document.addEventListener('DOMContentLoaded', () => {
       info: { url: '#', text: '' },
       reward: { url: '#', text: '' },
       image: '',
-      raum: '112',
+      raum: 'A112',
       symbol: '-'
     },
     'Spieleprogrammierung': {
       info: { url: '#', text: '' },
       reward: { url: '#', text: '' },
-      image: ''
+      image: '',
+      raum: 'A25',
+      symbol: 'F'
     },
     'Audioproduktion': {
       info: { url: '#', text: '' },

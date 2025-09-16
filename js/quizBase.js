@@ -1,13 +1,23 @@
 export function insertButton(formId, label = 'Auswerten', onClick) {
   const form = document.getElementById(formId);
   if (!form) return null;
+
   const button = document.createElement('button');
   button.type = 'button';
   button.textContent = label;
-  form.appendChild(button);
+
+  // Wrapper für Zentrierung
+  const wrapper = document.createElement('div');
+  wrapper.classList.add('button-wrapper');
+  wrapper.appendChild(button);
+
+  form.appendChild(wrapper);
+
   button.addEventListener('click', onClick);
   return button;
 }
+
+
 
 export function collectAnswers(formId) {
   const form = document.getElementById(formId);
