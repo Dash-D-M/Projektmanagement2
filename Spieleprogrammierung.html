@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSFL Quizseite</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="js/quizBase.js"></script>
+    <script type="module" src="js/SpieleprogrammierungQuiz.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap" rel="stylesheet">
+
+   
+</head>
+<body>
+<header>
+    <img src="Logo_HSFL.png" alt="HSFL Logo" class="logo">
+    <br>
+    <br>
+    <h1>A25 - Spiele</h1>
+
+    <img src="https://hs-flensburg.de/sites/default/files/styles/slide/public/2023-05/AI-B_Titel_Web.jpg?itok=6NdvrBlc" 
+               alt="Frau sitzt vor dem Computer und arbeitet mit einer Motion-Capturing Software" class="image">
+</header>
+<main>
+        <form id="quiz-form">
+            <div class="quiz-question">
+            <p> <b>Allgemeinwissen:</b></p>
+            <p>1. Was bedeutet Immatrikulation?</p>
+            <input type="radio" id="q1a" name="question1"  value="a"> 
+                <label for="q1a">Von einer Hochschule zu einer anderen wechseln</label><br>
+            <input type="radio" id="q1b" name="question1" value="b"> 
+                <label for="q1b"> Vom Bachelor zu einem Master Studiengang wechseln</label><br>
+            <input type="radio" id="q1c" name="question1" value="c"> 
+                <label for="q1c"> Sich aus einer Hochschule ausschreiben</label><br>
+            <input type="radio" id="q1d" name="question1" value="d"> 
+                <label for="q1d"> Sich an einer Hochschule einschreiben</label><br>
+            </div>
+
+           
+             <div class="quiz-question">
+            <p><b>Fragen zu Spieleprogrammierung:</b></p>
+            <p>2. Wofür dient eine Game Engine?</p>
+            <input type="radio" id="q2a" name="question2" value="a"> 
+               <label for="q2a"> Unterstützt die Spieleprogrammierung durch KI Integration</label><br>
+            <input type="radio" id="q2b" name="question2" value="b"> 
+               <label for="q2b"> Liefert Rechenleistung, damit ein Spiel laufen kann</label><br>
+            <input type="radio" id="q2c" name="question2" value="c"> 
+               <label for="q2c"> Stellt Funktinen wie Grafik, Physik und Sound bereit</label><br>
+            <input type="radio" id="q2d" name="question2" value="d"> 
+               <label for="q2d"> Ermöglicht die Anbindung von Controllern</label><br>
+            </div>
+
+            <div class="quiz-question">
+            <p>3. Welche Programmiersprache wird im Modul 3D-Spieleprogrammierung genutzt?</p>
+            <input type="radio"  id="q3a" name="question3" value="a">
+            <label for="q3a"> C++</label><br>
+            <input type="radio" id="q3b" name="question3" value="b">
+            <label for="q3b"> Java</label><br>
+            <input type="radio" id="q3c" name="question3" value="c">
+            <label for="q3c"> JavaScript</label><br>
+            <input type="radio" id="q3d" name="question3" value="d">
+            <label for="q3d"> C#</label><br>
+            </div>
+
+            <div class="quiz-question">
+            <p>4. Wie heißt die Game Engine, die in den Spieleprogrammierungs Modulen an der HSFL häufig genutzt wird?</p>
+            <input type="text" id="q4a" name="question4">        
+            </div>
+
+            <div class="quiz-question">
+            <p>5. Was ist ein Prototyp in der Spieleentwicklung?</p>
+            <input type="radio" id="q5a" name="question5" value ="a"> 
+               <label for="q5a"> Eine frühe Testversion</label><br>
+            <input type="radio" id="q5b" name="question5" value="b"> 
+               <label for="q5b"> Ein Speicherformat</label><br>
+            <input type="radio" id="q5c" name="question5" value="c">
+               <label for="q5c"> Eine Art von Spiel</label><br>
+            <input type="radio" id="q5d" name="question5" value="d">
+               <label for="q5d"> Eine Art von Controller</label><br>
+            </div>
+
+        </form>
+        
+            
+        <p> Um Mehr über den Studiengnag Medieninformatik herauszufinden,
+          schaue dir gerne die Studienbeschreibung auf unserer Hochschulwebseite an: 
+          <a href="https://hs-flensburg.de/studieninteressierte/angebot/bachelor/MI">HSFL Studium/ Medieninformatik</a>
+
+        </p>
+    </main>
+</body>
+    <footer>
+        <p>&copy; Rundgang 2025</p>
+
+    </footer>
+</html>
