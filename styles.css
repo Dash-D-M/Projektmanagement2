@@ -283,4 +283,12 @@ img, .image {
         display: block;
         border-radius: 8px;
     }
+    #reward- image {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 16px auto;
+        border-radius: 12px;
+        box-shadow: 0 4px 16px rgba(44,47,136,0,15);
+    }
 }

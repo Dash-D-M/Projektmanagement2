@@ -64,15 +64,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'Film&MediaArts': {
       info: { url: '#', text: '' },
-      reward: { url: '#', text: '' },
-      image: '',
+      reward: { url: 'Goodies/Mobil/Skyline Wallpaper Handy 4K.png', text: 'Wallpaper fuer Film&MediaArts' },
+      image: 'Goodies/Mobil/Skyline Wallpaper Handy 4K.png',
       raum: 'A14',
       symbol: '#'
     },
     'GrundlagenGestaltung': {
       info: { url: '#', text: '' },
-      reward: { url: '#', text: '' },
-      image: '',
+      reward: { url: 'Goodies/Mobil/Quallen Wallpaper Handy 4K.png', text: 'Digitale Belohnung herunterladen' },
+      image: 'Goodies/Mobil/Quallen Wallpaper Handy 4K.png',
       raum: 'A212 (2)',
       symbol: '!'
     },
