@@ -41,7 +41,8 @@ export function evaluateAnswers(answers, correctAnswers) {
   keys.forEach(key => {
     const correct = correctAnswers[key];
     if (Array.isArray(correct)) {
-      if (correct.includes(answers[key])) score++;
+      const normalized = correct.map(val => val.toLowerCase());
+      if (normalized.includes(answers[key])) score++;
     } else if (answers[key] === correct) {
       score++;
     }
