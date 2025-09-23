@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     '3D-Veranstaltungen': {
       info: { url: 'https://hs-flensburg.de/studieninteressierte/angebot/bachelor/AI', text: 'Studiengang: Angewandte Informatik' },
-      reward: { url: 'Goodies/3D-Veranstaltungen/3D-Veranstaltungen Goodies.zip', text: '' },
+      reward: { url: 'Goodies/3D-Veranstaltungen/3D-Veranstaltungen Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/3D-Veranstaltungen/Laptop Wallpaper Handy 4K.png',
         'Goodies/3D-Veranstaltungen/Krabbe Sticker.png',
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'Spieleprogrammierung': {
       info: { url: 'https://hs-flensburg.de/sites/default/files/2025-06/Modulhandbuch_B-MI_23_05_2025.pdf#page=34', text: 'Info zu Spiele-Programmierung' },
-      reward: { url: 'Goodies/Spieleprogrammierung/Spieleprogrammierung Goodies.zip', text: 'Wallpaper und Sticker' },
+      reward: { url: 'Goodies/Spieleprogrammierung/Spieleprogrammierung Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/Spieleprogrammierung/Gaming Wallpaper Handy 4K.png',
         'Goodies/Spieleprogrammierung/Katze Sticker.png',   
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'Audioproduktion': {
       info: { url: 'https://hs-flensburg.de/sites/default/files/2025-06/Modulhandbuch_B-MI_23_05_2025.pdf#page=12', text: 'Info zu Audio-Produktion' },
-      reward: { url: 'Goodies/Audioproduktion/Audioproduktion.zip', text: 'Wallpaper und Sticker' },
+      reward: { url: 'Goodies/Audioproduktion/Audioproduktion.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/Audioproduktion/Welli Wallpaper Handy 4K.png',
         'Goodies/Audioproduktion/Herz Sticker.png',
@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'DesignFilmMarketing': {
       info: { url: 'https://hs-flensburg.de/sites/default/files/2022-01/MA_DFM_2022_Modulkatalog.pdf#page=4', text: 'Modulhandbuch Design, Film & Marketing' },
-      reward: { url: 'Goodies/DesignFilmMarketing/DesignFilmMarketing Goodies.zip', text: 'Wallpaper und Minecraft Skin' },
+      reward: { url: 'Goodies/DesignFilmMarketing/DesignFilmMarketing Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/DesignFilmMarketing/Wallpaper Strandkiste Handy 4K.png',
         'Goodies/DesignFilmMarketing/WideHoodieWhite.gif',
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'DigitaleBildbearbeitung': {
       info: { url: 'https://hs-flensburg.de/sites/default/files/2025-06/Modulhandbuch_B-MI_23_05_2025.pdf#page=15', text: 'Info zu Digitale Bildbearbeitung' },
-      reward: { url: 'Goodies/DigitaleBildbearbeitung/DDB Goodies.zip', text: 'Wallpaper und Sticker' },
+      reward: { url: 'Goodies/DigitaleBildbearbeitung/DDB Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/DigitaleBildbearbeitung/Wallpaper Blüte Handy 4K.png',
         'Goodies/DigitaleBildbearbeitung/Tiere Sticker.png',
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'Film&MediaArts': {
       info: { url: 'https://hs-flensburg.de/studieninteressierte/angebot/bachelor/B-FMA', text: 'Studiengang: Film & media Arts' },
-      reward: { url: 'Goodies/FilmMediaArts/Film&MediaArts Goodies.zip', text: 'Wallpaper fuer Film&MediaArts' },
+      reward: { url: 'Goodies/FilmMediaArts/Film&MediaArts Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/FilmMediaArts/Skyline Wallpaper Handy 4K.png',
         'Goodies/FilmMediaArts/QR-Rallye.png',
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
       symbol: '#'
     },
     'GrundlagenGestaltung': {
-      info: { url: 'https://hs-flensburg.de/studieninteressierte/angebot/bachelor/MI', text: '' },
+      info: { url: 'https://hs-flensburg.de/sites/default/files/2025-06/Modulhandbuch_B-MI_23_05_2025_0.pdf#page=6', text: '' },
       reward: { url: 'Goodies/GrundlagenGestaltung/GrundlagenGestaltung Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/GrundlagenGestaltung/Tetris Wallpaper Handy 4K.png',
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         url: 'https://hs-flensburg.de/sites/default/files/2025-06/Modulhandbuch_B-MI_23_05_2025.pdf#page=3',
         text: 'Info zu Filmsprache'
       },
-      reward: { url: 'Goodies/AudioFilmtechnik/AudioFilmtechnik.zip', text: 'Wallpaper und Minecraft Skin' },
+      reward: { url: 'Goodies/AudioFilmtechnik/AudioFilmtechnik.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/AudioFilmtechnik/Quallen Wallpaper Handy 4K.png',
         'Goodies/AudioFilmtechnik/WideHoodieBlack.gif',],
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'VFX': {
       info: { url: 'https://hs-flensburg.de/sites/default/files/2025-06/Modulhandbuch_B-MI_23_05_2025.pdf#page=51', text: 'Info zu Postproduction' },
-      reward: { url: 'Goodies/VFX/VFX Goodies.zip', text: 'Wallpaper und Minecraft Skin' },
+      reward: { url: 'Goodies/VFX/VFX Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/VFX/Schaltkreis Wallpaper Handy 4K.png',
         'Goodies/VFX/SlimHoodieBlack.gif'],
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'Web-Technologien': {
       info: { url: 'https://hs-flensburg.de/sites/default/files/2025-06/Modulhandbuch_B-MI_23_05_2025.pdf#page=42', text: 'Info zu Frontend-Design' },
-      reward: { url: 'Goodies/Web-Technologien/Web-Technologien Goodies.zip', text: 'Wallpaper und Sticker' },
+      reward: { url: 'Goodies/Web-Technologien/Web-Technologien Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       stickerlink: { url: 'https://sticker.ly/s/9BV23Q', text: 'Link zu Sticker.ly' },  
       images: [
         'Goodies/Web-Technologien/Bücherregal Wallpaper Handy 4K.png',
