@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
       symbol: '$'
     },
     'DesignFilmMarketing': {
-      info: { url: '#', text: '' },
+      info: { url: 'https://hs-flensburg.de/sites/default/files/2022-01/MA_DFM_2022_Modulkatalog.pdf#page=4', text: 'Modulhandbuch Design, Film & Marketing' },
       reward: { url: 'Goodies/DesignFilmMarketing/DesignFilmMarketing Goodies.zip', text: 'Wallpaper und Minecraft Skin' },
       images: [
         'Goodies/DesignFilmMarketing/Wallpaper Strandkiste Handy 4K.png',
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
       symbol: 'Z'
     },
     'Film&MediaArts': {
-      info: { url: '#', text: '' },
+      info: { url: 'https://hs-flensburg.de/sites/default/files/studiengang/2025/modulhandbuch_-_modulkatalog_final.pdf', text: 'Modulhandbuch Film & Media Arts' },
       reward: { url: 'Goodies/FilmMediaArts/Film&MediaArts Goodies.zip', text: 'Wallpaper und Sticker' },
       images: [
         'Goodies/FilmMediaArts/Skyline Wallpaper Handy 4K.png',
