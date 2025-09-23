@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
       symbol: ''
     },
     '3D-Veranstaltungen': {
-      info: { url: '#', text: '' },
+      info: { url: 'https://hs-flensburg.de/studieninteressierte/angebot/bachelor/AI', text: 'Studiengang: Angewandte Informatik' },
       reward: { url: 'Goodies/3D-Veranstaltungen/3D-Veranstaltungen Goodies.zip', text: '' },
       images: [
               'Goodies/3D-Veranstaltungen/Laptop Wallpaper Handy 4K.png',
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
       symbol: 'Z'
     },
     'Film&MediaArts': {
-      info: { url: '#', text: '' },
+      info: { url: 'https://hs-flensburg.de/studieninteressierte/angebot/bachelor/B-FMA', text: 'Studiengang: Film & media Arts' },
       reward: { url: 'Goodies/FilmMediaArts/Film&MediaArts Goodies.zip', text: 'Wallpaper fuer Film&MediaArts' },
       images: [
               'Goodies/FilmMediaArts/Skyline Wallpaper Handy 4K.png',
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
       symbol: '#'
     },
     'GrundlagenGestaltung': {
-      info: { url: '#', text: '' },
+      info: { url: 'https://hs-flensburg.de/studieninteressierte/angebot/bachelor/MI', text: '' },
       reward: { url: 'Goodies/GrundlagenGestaltung/GrundlagenGestaltung Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
               'Goodies/GrundlagenGestaltung/Tetris Wallpaper Handy 4K.png',
