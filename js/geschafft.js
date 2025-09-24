@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
       symbol: '#'
     },
     'GrundlagenGestaltung': {
-      info: { url: 'https://hs-flensburg.de/sites/default/files/2025-06/Modulhandbuch_B-MI_23_05_2025_0.pdf#page=6', text: '' },
+      info: { url: 'https://hs-flensburg.de/studieninteressierte/angebot/bachelor/MI', text: 'Info zu Grundlagen Gestaltung' },
       reward: { url: 'Goodies/GrundlagenGestaltung/GrundlagenGestaltung Goodies.zip', text: 'Digitale Belohnung herunterladen' },
       images: [
         'Goodies/GrundlagenGestaltung/Tetris Wallpaper Handy 4K.png',
